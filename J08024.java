@@ -14,15 +14,6 @@ public class J08024 {
     }
     public static void main(String args[]) throws IOException, ClassNotFoundException, ParseException {
         Scanner scanner = new Scanner(System.in);
-        // if (System.getProperty("ONLINE_JUDGE") == null) { 
-        //     try { 
-        //         System.setOut(new PrintStream( 
-        //             new FileOutputStream("java_output.txt"))); 
-        //         scanner = new Scanner(new File("java_input.txt")); 
-        //     } 
-        //     catch (Exception e) { 
-        //     } 
-        // }   
         int t = Integer.parseInt(scanner.nextLine());
         while (t-- > 0) {
             long n = scanner.nextLong();
