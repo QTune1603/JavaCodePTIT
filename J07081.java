@@ -15,14 +15,6 @@ class A implements Comparable<A> {
         String temp[] = b.trim().split(" ");
         for (String i : temp) this.b.add(i);
         for (int i = 1; i < temp.length - 1; ++i) this.d += temp[i] + " ";
-        // String temp[] = a.trim().toLowerCase().split("\\s+");
-        // a = "";
-        // for (String i : temp) {
-        //     a += String.valueOf(i.charAt(0)).toUpperCase() + i.substring(1) + " ";
-        // }
-        // this.a = a.trim();
-        // this.b = b;
-        // this.id = ((id < 10) ? "C00" : (id < 100) ? "C0" : "C") + id.toString();
     }
     @Override 
     public int compareTo (A ob) {
