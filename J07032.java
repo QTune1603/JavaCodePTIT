@@ -9,20 +9,6 @@ import java.util.TreeSet;
 public class J07032 {
     public static void main(String args[]) throws IOException, ClassNotFoundException {
         ObjectInputStream scanner = new ObjectInputStream(new FileInputStream ("DATA1.in"));
-        // if (System.getProperty("ONLINE_JUDGE") == null) { 
-        //     try { 
-        //         System.setOut(new PrintS tream( 
-        //             new FileOutputStream("java_output.txt"))); 
-        //         scanner = new Scanner(new File("java_input.txt")); 
-        //     } 
-        //     catch (Exception e) { 
-        //     } 
-        // }   
-
-        // int t = Integer.parseInt(scanner.nextLine()), test = 0;
-        // while (t-- > 0) {
-            
-        // } 
         ArrayList<Integer> a = (ArrayList<Integer>)scanner.readObject();
         scanner = new ObjectInputStream(new FileInputStream ("DATA2.in"));
         ArrayList<Integer> b = (ArrayList<Integer>)scanner.readObject();
